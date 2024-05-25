@@ -23,9 +23,9 @@ class Cobro:
             f"ID vehiculo: {self.idVehiculo}\n"
             f"Placa: {self.placa}\n"
             f"TipoVehiculo: {self.tiposervicio}\n"
-            f"Estado: {self.estado}"
-            f"Tiempo: {self.tiempo}"
-            f"Valor: {self.valor}"
+            f"Estado: {self.estado}\n"
+            f"Tiempo: {self.tiempo}\n"
+            f"Valor: {self.valor}\n"
         )
     def updatePlaca(self,placa):
         self.placa = placa
@@ -37,9 +37,9 @@ class Cobro:
         self.fecha = fecha
     def updateTiposervicio(self,tiposervicio):
         self.tiposervicio = tiposervicio
-    def updateTiposervicio(self,tiempo):
+    def updateTiempo(self,tiempo):
         self.tiempo = tiempo
-    def updateTiposervicio(self,valor):
+    def updateValor(self,valor):
         self.valor = valor
     def gestEstado(self):
         return(self.estado)

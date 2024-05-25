@@ -20,7 +20,7 @@ class Pago:
     def info(self):
         return (
             f"ID pago: {self.intpago}\n"
-            f"Estado: {self.estado}"
+            f"Estado: {self.estado}\n"
             f"ID cobrar: {self.intcobro}\n"
             f"Fecha: {self.fecha}\n"
             f"Tiposervicio: {self.tiposervicio}\n"

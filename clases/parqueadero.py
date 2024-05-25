@@ -14,7 +14,7 @@ class Parqueadero:
     def info(self):
         return (
             f"ID Parqueadero: {self.intparqueadero}\n"
-            f"Estado: {self.estado}"
+            f"Estado: {self.estado}\n"
             f"Tipo parqueadero: {self.tipoparqueadero}\n"
             f"Placa: {self.tipovehiculo}\n"
         )
