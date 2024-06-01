@@ -13,7 +13,7 @@ if __name__ == "__main__":
     print("\n")
     print(usuario1.gestEstado())
     print("\n")
-    usuario1.updateNombre('agua')
+    usuario1.updateNombre('pedro')
     print(usuario1.info())
     print("\n")
 
